@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Dark background for the entire application */
+    color: white; /* White text for better contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the header */
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+
+/* Container Styles */
+.container {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    background-color: #222; /* Darker background for the content area */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    display: block; /* Ensure labels are on a new line */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+input {
+    width: 80%; /* Full width for inputs */
+    padding: 10px; /* Padding for inputs */
+    border-radius: 5px;
+    border: 1px solid #555; /* Border for inputs */
+}
+
+/* Button Styles */
+.btn {
+    cursor: pointer;
+    font-size: 16px;
+    color: white; /* White text for buttons */
+    background-color: #28a745; /* Green background for regular buttons */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 100%; /* Full width for buttons */
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Logout Button Specific Styles */
+.logout-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50%; /* Full width for logout button */
+    text-align: right; /* Align logout button to the right */
+}
+
+.logout {
+    background-color: #f00; /* Red background for logout button */
+    padding: 15px 30px; /* Increased padding for a larger button */
+    font-size: 18px; /* Larger font size for better visibility */
+}
+
+.logout:hover {
+    background-color: #d00; /* Darker red on hover */
+}
